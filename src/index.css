@@ -1,0 +1,8 @@
+/* Global styles for the entire app */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+}
