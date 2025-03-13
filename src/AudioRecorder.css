@@ -1,0 +1,127 @@
+/* General Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Main Container */
+.recorder-container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 25px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 8px 25px rgba(255, 255, 255, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 450px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Record Button */
+.record-btn {
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 250px;
+}
+
+.record-btn.start {
+  background: linear-gradient(135deg, #00c853, #b2ff59);
+}
+
+.record-btn.stop {
+  background: linear-gradient(135deg, #d32f2f, #ff5252);
+}
+
+.record-btn:hover {
+  transform: scale(1.05);
+}
+
+/* Audio Controls */
+.audio-controls {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Linear Alignment for DAF & FAF */
+.control-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 15px;
+  padding: 5px;
+}
+
+.control-group label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* Sliders */
+.control-group input[type="range"] {
+  flex-grow: 1;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+/* Round Buttons */
+.round-btn {
+  width: 40px;
+  height: 40px;
+  background: #ff5722;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.round-btn:hover {
+  background: #ff9800;
+  transform: scale(1.1);
+}
+
+/* Display Value */
+.value-display {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffcc80;
+  margin-left: 10px;
+}
+
+/* Exercise Button */
+.exercise-btn {
+  display: block;
+  margin: 20px auto 0;
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #ff6f61, #ff8a80);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.exercise-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #ff3d47, #ff6f61);
+}

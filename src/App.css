@@ -1,99 +1,14 @@
-/* AudioRecorder.css */
-.recorder-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(to right, #6a11cb, #2575fc);
+.container {
+  margin: 50px auto;
+  width: 80%;
+  max-width: 600px;
+  background: #333;
   padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-  max-width: 400px;
-  margin: 20px auto;
-  color: white;
-  font-family: 'Arial', sans-serif;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
 }
 
-.record-btn {
-  background: #ff4757;
-  color: white;
-  border: none;
-  padding: 12px 20px;
-  font-size: 18px;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-
-.record-btn.start {
-  background: #2ed573;
-}
-
-.record-btn.stop {
-  background: #ff6b81;
-}
-
-.record-btn:hover {
-  transform: scale(1.1);
-}
-
-.audio-controls {
-  margin-top: 20px;
-  text-align: center;
-}
-
-audio {
-  width: 100%;
-  margin-top: 10px;
-  border-radius: 6px;
-}
-
-.download-btn {
-  display: inline-block;
-  background: #1e90ff;
-  color: white;
-  text-decoration: none;
-  padding: 8px 16px;
-  margin-top: 10px;
-  border-radius: 6px;
-  transition: 0.3s ease;
-}
-
-.download-btn:hover {
-  background: #3742fa;
-}
-
-.slider-container {
-  margin-top: 15px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-input[type="range"] {
-  width: 150px;
-  -webkit-appearance: none;
-  appearance: none;
-  height: 6px;
-  background: #ddd;
-  border-radius: 5px;
-  outline: none;
-}
-
-input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 14px;
-  height: 14px;
-  background: #1e90ff;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-input[type="range"]::-moz-range-thumb {
-  width: 14px;
-  height: 14px;
-  background: #1e90ff;
-  border-radius: 50%;
-  cursor: pointer;
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
